@@ -1,0 +1,9 @@
+from math import *
+def squaresum(n):
+    sm=0
+    while n!=0:
+        sq=n**2
+        sm=sm+sq
+        n-=1
+        
+    print(sm)
